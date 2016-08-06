@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>Datamate</title>
+    <style>
+    .topBar {
+        margin-top: -17px;
+        margin-left: -8px;
+        margin-right: -8px;
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        
+      }
+      
+      .codeField {
+        background-color: #00031A;
+        color: white;
+        /*  Position   */
+        margin-top: 0px;
+        margin-left: 52px;
+        /* 624*/
+        height: 588px;
+        width: 100%;
+        
+      }
+      
+      h1 {
+        font-family:"Avenir";
+        color: #505050;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 160px;
+        
+      }
+      
+      .sideBar {
+        background-color: white;
+        margin-top: -674px;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 624px;
+        width: 60px;
+        color: grey;
+        
+      }
+      .container {
+        height: 100%;
+          width: 100%;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+        
+      }
+      
+      .bottomBar {
+        height: 50px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: -8px;
+        margin-top: 50px;
+        background-color:white;
+      }
+      
+      .Cancel {
+        float: right;     
+      margin-right: 10px;
+        border-color: #ff0000;
+        background-color:white;
+        color: #ff0000;
+        
+      }
+      
+      .Refactor {
+
+        float: right;
+        border-color: #00bfff;
+                background-color:white;
+color: #00bfff;
+        margin-right: 8px;
+        
+        
+      }
+      
+      .Cancel, .Refactor {
+        height: 32px;
+        width: 125px;
+        border-style:solid;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-family:"Avenir";
+      }
+      
+      
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="topBar"> <h1>Datamate</h1> 
+    </div>
+    <textarea class="codeField"></textarea>
+      <div class="sideBar"> 
+      </div>
+       <div class="bottomBar"> 
+        
+         <button class="Refactor">Refactor</button>
+          <button class="Cancel">Cancel</button> 
+       </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
